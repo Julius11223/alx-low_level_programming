@@ -12,13 +12,16 @@ int main(void)
 {
 	char small;
 
-	for (small = 'a'; small <= 'z'; small++){
+	for (small = 'a'; small <= 'z'; small++)
+	{
 		putchar(small);
 	}
-	for (small = 'A'; small <= 'Z'; small++){
+	for (small = 'A'; small <= 'Z'; small++)
+	{
 		putchar(small);
-		putchar('\n');
 	}
+	putchar('\n');
+	
 
 	return (0);
 }
